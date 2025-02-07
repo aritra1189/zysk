@@ -1,5 +1,10 @@
 import React from "react";
-
+import bl1 from '../assets/bl1.png'
+import bl2 from '../assets/bl2.png'
+import bl3 from '../assets/bl3.png'
+import ava1 from '../assets/avator1.jpg'
+import ava2 from '../assets/avator2.jpg'
+import ava3 from '../assets/avator1.jpg'
 const BlogSection = () => {
   const blogs = [
     {
@@ -9,8 +14,8 @@ const BlogSection = () => {
         "How do you create compelling presentations that wow your colleagues and impress your managers?",
       author: "Olivia Rhye",
       date: "20 Jan 2024",
-      image: "./src/assets/bl1.png",
-      profile: "./src/assets/avator1.jpg",
+      image: {bl1},
+      profile: {ava1},
     },
     {
       category: "Product",
@@ -19,8 +24,8 @@ const BlogSection = () => {
         "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
       author: "Phoenix Baker",
       date: "19 Jan 2024",
-      image: "./src/assets/bl2.png",
-      profile: "./src/assets/avator2.jpg",
+      image: {bl2},
+      profile: {ava2},
     },
     {
       category: "Software Engineering",
@@ -29,8 +34,8 @@ const BlogSection = () => {
         "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
       author: "Lana Steiner",
       date: "18 Jan 2024",
-      image: "./src/assets/bl3.png",
-      profile: "./src/assets/avator1.jpg",
+      image: {bl3},
+      profile: {ava3},
     },
   ];
 
