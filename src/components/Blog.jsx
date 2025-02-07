@@ -1,10 +1,11 @@
 import React from "react";
-import bl1 from '../assets/bl1.png'
-import bl2 from '../assets/bl2.png'
-import bl3 from '../assets/bl3.png'
-import ava1 from '../assets/avator1.jpg'
-import ava2 from '../assets/avator2.jpg'
-import ava3 from '../assets/avator1.jpg'
+import bl1 from '../assets/bl1.png';
+import bl2 from '../assets/bl2.png';
+import bl3 from '../assets/bl3.png';
+import ava1 from '../assets/avator1.jpg';
+import ava2 from '../assets/avator2.jpg';
+import ava3 from '../assets/avator1.jpg';
+
 const BlogSection = () => {
   const blogs = [
     {
@@ -14,8 +15,8 @@ const BlogSection = () => {
         "How do you create compelling presentations that wow your colleagues and impress your managers?",
       author: "Olivia Rhye",
       date: "20 Jan 2024",
-      image: {bl1},
-      profile: {ava1},
+      image: bl1,  
+      profile: ava1, 
     },
     {
       category: "Product",
@@ -24,8 +25,8 @@ const BlogSection = () => {
         "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
       author: "Phoenix Baker",
       date: "19 Jan 2024",
-      image: {bl2},
-      profile: {ava2},
+      image: bl2, 
+      profile: ava2, 
     },
     {
       category: "Software Engineering",
@@ -34,8 +35,8 @@ const BlogSection = () => {
         "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
       author: "Lana Steiner",
       date: "18 Jan 2024",
-      image: {bl3},
-      profile: {ava3},
+      image: bl3, 
+      profile: ava3,  
     },
   ];
 
@@ -45,7 +46,7 @@ const BlogSection = () => {
       <div className="flex justify-between items-center">
         <div>
           <h3 className="text-red-500 font-semibold">Our blog</h3>
-          <h2 className="text-4xl font-bold text-gray-900 mt-2">Lastest blog posts</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mt-2">Latest blog posts</h2>
           <p className="text-gray-600 mt-3 text-lg max-w-2xl">
             Tools and strategies modern teams need to help their companies grow.
           </p>
